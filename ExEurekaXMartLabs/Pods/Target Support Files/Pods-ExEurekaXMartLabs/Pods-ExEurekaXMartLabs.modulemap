@@ -1,0 +1,6 @@
+framework module Pods_ExEurekaXMartLabs {
+  umbrella header "Pods-ExEurekaXMartLabs-umbrella.h"
+
+  export *
+  module * { export * }
+}

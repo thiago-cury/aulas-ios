@@ -1,0 +1,6 @@
+framework module Pods_ExCosmicMindMaterialDesign {
+  umbrella header "Pods-ExCosmicMindMaterialDesign-umbrella.h"
+
+  export *
+  module * { export * }
+}

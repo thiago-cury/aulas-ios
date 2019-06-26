@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB6932622C3D25F007F13F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6932522C3D25F007F13F9 /* AppDelegate.swift */; };
+		2EB6932822C3D25F007F13F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6932722C3D25F007F13F9 /* ViewController.swift */; };
+		2EB6932B22C3D25F007F13F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6932922C3D25F007F13F9 /* Main.storyboard */; };
+		2EB6932D22C3D260007F13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6932C22C3D260007F13F9 /* Assets.xcassets */; };
+		2EB6933022C3D260007F13F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6932E22C3D260007F13F9 /* LaunchScreen.storyboard */; };
+		650D92169C326C8E899CB717 /* Pods_ExCosmicMindMaterialDesign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5004535054F11F1B7BF2E72 /* Pods_ExCosmicMindMaterialDesign.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		143D2D4508A37020370FE67A /* Pods-ExCosmicMindMaterialDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExCosmicMindMaterialDesign.release.xcconfig"; path = "Target Support Files/Pods-ExCosmicMindMaterialDesign/Pods-ExCosmicMindMaterialDesign.release.xcconfig"; sourceTree = "<group>"; };
+		2EB6932222C3D25F007F13F9 /* ExCosmicMindMaterialDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExCosmicMindMaterialDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB6932522C3D25F007F13F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EB6932722C3D25F007F13F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EB6932A22C3D25F007F13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EB6932C22C3D260007F13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EB6932F22C3D260007F13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EB6933122C3D260007F13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756D1BAFA46AFDB98521EF69 /* Pods-ExCosmicMindMaterialDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExCosmicMindMaterialDesign.debug.xcconfig"; path = "Target Support Files/Pods-ExCosmicMindMaterialDesign/Pods-ExCosmicMindMaterialDesign.debug.xcconfig"; sourceTree = "<group>"; };
+		B5004535054F11F1B7BF2E72 /* Pods_ExCosmicMindMaterialDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExCosmicMindMaterialDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB6931F22C3D25F007F13F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650D92169C326C8E899CB717 /* Pods_ExCosmicMindMaterialDesign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1191C449C7D3FFD1BB0147A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5004535054F11F1B7BF2E72 /* Pods_ExCosmicMindMaterialDesign.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EB6931922C3D25E007F13F9 = {
+			isa = PBXGroup;
+			children = (
+				2EB6932422C3D25F007F13F9 /* ExCosmicMindMaterialDesign */,
+				2EB6932322C3D25F007F13F9 /* Products */,
+				D5B1B3E58F901B3B9E93E29A /* Pods */,
+				1191C449C7D3FFD1BB0147A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB6932322C3D25F007F13F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB6932222C3D25F007F13F9 /* ExCosmicMindMaterialDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB6932422C3D25F007F13F9 /* ExCosmicMindMaterialDesign */ = {
+			isa = PBXGroup;
+			children = (
+				2EB6932522C3D25F007F13F9 /* AppDelegate.swift */,
+				2EB6932722C3D25F007F13F9 /* ViewController.swift */,
+				2EB6932922C3D25F007F13F9 /* Main.storyboard */,
+				2EB6932C22C3D260007F13F9 /* Assets.xcassets */,
+				2EB6932E22C3D260007F13F9 /* LaunchScreen.storyboard */,
+				2EB6933122C3D260007F13F9 /* Info.plist */,
+			);
+			path = ExCosmicMindMaterialDesign;
+			sourceTree = "<group>";
+		};
+		D5B1B3E58F901B3B9E93E29A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				756D1BAFA46AFDB98521EF69 /* Pods-ExCosmicMindMaterialDesign.debug.xcconfig */,
+				143D2D4508A37020370FE67A /* Pods-ExCosmicMindMaterialDesign.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB6932122C3D25F007F13F9 /* ExCosmicMindMaterialDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB6933422C3D260007F13F9 /* Build configuration list for PBXNativeTarget "ExCosmicMindMaterialDesign" */;
+			buildPhases = (
+				2C153B39C264DF99514079FA /* [CP] Check Pods Manifest.lock */,
+				2EB6931E22C3D25F007F13F9 /* Sources */,
+				2EB6931F22C3D25F007F13F9 /* Frameworks */,
+				2EB6932022C3D25F007F13F9 /* Resources */,
+				F49F912EAECAE5EB0BC1F434 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExCosmicMindMaterialDesign;
+			productName = ExCosmicMindMaterialDesign;
+			productReference = 2EB6932222C3D25F007F13F9 /* ExCosmicMindMaterialDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB6931A22C3D25F007F13F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Thiago  Espindola Cury";
+				TargetAttributes = {
+					2EB6932122C3D25F007F13F9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2EB6931D22C3D25F007F13F9 /* Build configuration list for PBXProject "ExCosmicMindMaterialDesign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB6931922C3D25E007F13F9;
+			productRefGroup = 2EB6932322C3D25F007F13F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB6932122C3D25F007F13F9 /* ExCosmicMindMaterialDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB6932022C3D25F007F13F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB6933022C3D260007F13F9 /* LaunchScreen.storyboard in Resources */,
+				2EB6932D22C3D260007F13F9 /* Assets.xcassets in Resources */,
+				2EB6932B22C3D25F007F13F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C153B39C264DF99514079FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExCosmicMindMaterialDesign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49F912EAECAE5EB0BC1F434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExCosmicMindMaterialDesign/Pods-ExCosmicMindMaterialDesign-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExCosmicMindMaterialDesign/Pods-ExCosmicMindMaterialDesign-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExCosmicMindMaterialDesign/Pods-ExCosmicMindMaterialDesign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB6931E22C3D25F007F13F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB6932822C3D25F007F13F9 /* ViewController.swift in Sources */,
+				2EB6932622C3D25F007F13F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EB6932922C3D25F007F13F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB6932A22C3D25F007F13F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EB6932E22C3D260007F13F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB6932F22C3D260007F13F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EB6933222C3D260007F13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EB6933322C3D260007F13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB6933522C3D260007F13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756D1BAFA46AFDB98521EF69 /* Pods-ExCosmicMindMaterialDesign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXV8YLD454;
+				INFOPLIST_FILE = ExCosmicMindMaterialDesign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.thiagocury.ExCosmicMindMaterialDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB6933622C3D260007F13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143D2D4508A37020370FE67A /* Pods-ExCosmicMindMaterialDesign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXV8YLD454;
+				INFOPLIST_FILE = ExCosmicMindMaterialDesign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.eti.thiagocury.ExCosmicMindMaterialDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB6931D22C3D25F007F13F9 /* Build configuration list for PBXProject "ExCosmicMindMaterialDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB6933222C3D260007F13F9 /* Debug */,
+				2EB6933322C3D260007F13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB6933422C3D260007F13F9 /* Build configuration list for PBXNativeTarget "ExCosmicMindMaterialDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB6933522C3D260007F13F9 /* Debug */,
+				2EB6933622C3D260007F13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB6931A22C3D25F007F13F9 /* Project object */;
+}
